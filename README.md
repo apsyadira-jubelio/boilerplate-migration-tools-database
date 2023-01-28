@@ -1,4 +1,4 @@
-# Jubelio Chat Migration Database
+# Migration Database Tools
 
 This is a tool for running the migration of the database. This tool was created with the aim of keeping all migration files centralized to prevent the loss of migration files like in jubelio core-API.
 
