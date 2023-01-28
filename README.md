@@ -4,7 +4,6 @@ This is a tool for running the migration of the database. This tool was created 
 
 ## Features
 
-- Usable as a CLI tool or as a library
 - Supports PostgreSQL
 - Migrations are defined with SQL for full flexibility
 - Atomic migrations
@@ -19,6 +18,12 @@ clone this repositsory and put to your workspace and copy `.env.example` to `.en
 ## Usage
 
 This tool use `Makefile` to run all command.
+
+### Install Development Dependencies (localy)
+
+```bash
+make deps-install
+```
 
 ### Create Migration File
 
